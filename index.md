@@ -1,7 +1,7 @@
 ---
 title       : Presentation of GDP Shiny App
 subtitle    : Brief documentation for the GDP Shiny app
-author      : Avi B.
+author      : Avi Blinder
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
@@ -26,9 +26,9 @@ knit        : slidify::knit2slides
 
     The application has two widgets:
     
-    - A slider for choosing the range of years to be displayed
+    - A slider for choosing the range of years to be displayed.
     
-    - A list of countries available on the dataset 
+    - A list of countries available on the dataset.
     
 
 ---
@@ -39,7 +39,7 @@ knit        : slidify::knit2slides
     (aviblinder.shinyapps.io/GDP-app)
 
     2. The application builds the list of countries in an dynamic way, 
-    thru "renderUI" and "uiOutput" shine funtions.
+    thru **"renderUI"** and **"uiOutput"** shiny funtions.
 
 
 ---
