@@ -35,13 +35,13 @@ knit        : slidify::knit2slides
 
 ## Special features
 
-    1. The application is hosted under [shinyapps host]
-    (aviblinder.shinyapps.io/GDP-app)
+    1. The application builds the list of countries in an dynamic way, 
+    thru **renderUI** and **uiOutput** shiny funtions.
 
-    2. The application builds the list of countries in an dynamic way, 
-    thru **"renderUI"** and **"uiOutput"** shiny funtions.
-
-
+    2. The application uses ggplot2 package and shows the comparison of
+    multiple countries, each having a different colour.
+    
+    
 ---
 
 ## Final words
