@@ -2,23 +2,28 @@
 title       : Presentation of GDP Shiny App
 subtitle    : Brief documentation for the GDP Shiny app
 author      : Avi Blinder
-framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+framework   : io2012   # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
 widgets     : []            # {mathjax, quiz, bootstrap}
-mode        : selfcontained # {standalone, draft}
-knit        : slidify::knit2slides
+github:
+    user: AviBlinder
+    repo: GDP-Shiny-Presentation
 
 ---
 
 ## Introduction
 
-    - The "GDP Shiny application" can be used to compare historical GDP 
-    rates between different countries.
-    
-    - The data for this upplication was downloaded from the [UNdata site]
-    (http://data.un.org/Default.aspx)
-    
+>    1. The "GDP Shiny application" can be used to compare historical GDP 
+>    rates between different countries.
+>    
+>    
+>    2. The data for this application was downloaded from the [UNdata site]
+>    (http://data.un.org/Default.aspx)
+>
+>
+>    3. The dataset contains historical data from 1970 thru 2013 of 220 countries.
+>
 
 ---
 
@@ -30,18 +35,19 @@ knit        : slidify::knit2slides
     
     - A list of countries available on the dataset.
     
+    - The output is a dynamic plot of GDP rates for multiple countries.
 
 ---
 
 ## Special features
 
-    1. The application builds the list of countries in an dynamic way, 
-    thru **renderUI** and **uiOutput** shiny funtions.
+>    1. The application builds the list of countries in an dynamic way, 
+>    thru **renderUI** and **uiOutput** shiny funtions.
 
-    2. The application uses ggplot2 package and shows the comparison of
-    multiple countries, each having a different colour.
+>    2. The application uses ggplot2 package and shows the comparison of
+>    multiple countries, each having a different colour.
     
-    
+
 ---
 
 ## Final words
