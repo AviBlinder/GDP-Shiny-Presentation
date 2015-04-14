@@ -52,3 +52,9 @@ knit        : slidify::knit2slides
     
     Thank you
 
+This document was created at: 
+
+
+```
+## [1] "2015-04-14"
+```

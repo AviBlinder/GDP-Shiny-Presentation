@@ -52,3 +52,8 @@ knit        : slidify::knit2slides
     
     Thank you
 
+This document was created at: 
+
+```{r,echo=FALSE}
+    Sys.Date()    
+```
